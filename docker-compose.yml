@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  tennis-kata:
+    build: .
+    volumes:
+      - "./kata:/kata"
+    tty: true
