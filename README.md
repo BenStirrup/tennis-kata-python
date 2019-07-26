@@ -6,6 +6,14 @@ By following these instructions, you will be able:
 
 on any platform (Windows, MacOS, Linux).
 
+## Tennis rules supported
+- Traditional tennis display scores: 0, 15, 30, 40, DEUCE, ADVANTAGE, WIN
+- Deuce rule: if both players reach 40 in a game, the deuce mode is activated.
+  - If the score is DEUCE, the player who wins the points takes the ADVANTAGE
+  - If the player who has the ADVANTAGE win the point, they win the game
+  - If the player who has the ADVANTAGE lose the point, the score is DEUCE again
+- A player wins the Set when they win 6 games or when they win 7 games if the opponent had won 5 games previously
+
 ## Pre-requisites
 1. Download and install docker engine by following these [instructions](https://docs.docker.com/install/).
 2. Download and install docker compose by following these [instructions](https://docs.docker.com/compose/install/).
